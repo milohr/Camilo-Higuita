@@ -1,0 +1,46 @@
+body, html {
+
+width: 100%;
+height:100%;
+}
+
+body {
+background-color:#333;
+color: #000000;
+font-family: Helvetica, sans-serif;
+font-size: 12px;
+  
+
+}
+.big-text
+{
+	
+color:white;
+	font-size:10em;
+	text-decoration:bold;
+    font-weight: bold;
+}
+.big-text p
+{
+margin:0px;
+
+}
+.big-text #title
+{
+	color:#e37171ff;
+	text-decoration:none;
+}
+a{
+text-decoration:none;
+}
+a:visited
+{
+	color:#e37171ff;
+
+}
+
+a:hover,
+p:hover
+{
+font-style: italic;
+}
