@@ -13,7 +13,9 @@ font-size: 12px;
 
 }
 .big-text
-{color:white;
+{
+	
+color:white;
 	font-size:10em;
 	text-decoration:bold;
     font-weight: bold;
@@ -21,8 +23,24 @@ font-size: 12px;
 .big-text p
 {
 margin:0px;
+
 }
 .big-text #title
 {
 	color:#e37171ff;
+	text-decoration:none;
+}
+a{
+text-decoration:none;
+}
+a:visited
+{
+	color:#e37171ff;
+
+}
+
+a:hover,
+p:hover
+{
+font-style: italic;
 }
