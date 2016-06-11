@@ -2,6 +2,17 @@
 {
 background-color:#b05858;;
 }
+#diana
+{
+background-color:yellow;
+}
+#catherine
+{
+background-color:white;
+border-color:none;
+box-shadow:none;
+}
+
 
 * {	
 
@@ -24,10 +35,8 @@ a:hover{
 color:yellow;
 }
 
-.artists,
-.preview
+.artists
 {
-text-align:center;
 border:solid;
 border-color:yellow; 
 border-width:3px;
@@ -40,6 +49,13 @@ box-shadow:
     6px 6px 0px 0px yellow,
     7px 7px 0px 0px yellow,
     8px 8px 0px 0px yellow;
+}
+
+.artists,
+.preview
+{
+text-align:center;
+
 padding:20px;
 	position: fixed;
   top: 50%;
@@ -52,34 +68,46 @@ padding:20px;
 
 .artists p
 {
-color:white;
-font-family: Courier;
-font-weight: bold;
-font-size: 40px;
-text-decoration:underline;
+	color:white;
+	font-family: Courier;
+	font-weight: bold;
+	font-size: 40px;
+	text-decoration:underline;
 }
 
 img
 {
-display:block;
-max-width: 350px;
-max-height: auto;
+	display:block;
+	max-width: 350px;
+	max-height: auto;
 }
 
-.text
-{
+#brand
+{	
 	position: fixed;
-  top: 80%;
-  left: 90%;
-   
+	top:60%;
+	left:100%;   
 }
-.text 
+
+#brand
 {
 font-family: Helvetica;
 font-weight: bold;
 font-size: 40px;
 color:black;
-transform: rotate(-90deg);
+transform: rotate(90deg);
 transform-origin: left top 0;
+}
+.info
+{
+position:fixed;
+font-family: Helvetica;
+font-weight: bold;
+font-size: 40px;
+color:black;
 
+}
+.info p
+{
+margin:2px;
 }

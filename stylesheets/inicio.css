@@ -39,8 +39,7 @@ a:visited
 
 }
 
-a:hover,
-p:hover
+a:hover
 {
 font-style: italic;
 }
