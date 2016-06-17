@@ -33,11 +33,13 @@ margin:0px;
 a{
 text-decoration:none;
 }
+
+a:link,
 a:visited
 {
 	color:#e37171ff;
-
 }
+
 
 a:hover
 {
